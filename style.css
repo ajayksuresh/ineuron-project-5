@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+}
+
+  .navbar{
+    display: flex;
+    background-color: black;
+    padding: 10px 100px;
+  }
+
+.navbar>div>img{
+    width: 130px;
+    height: 40px;
+    margin-top: 5px;
+    border-right: 1px solid white;
+    padding-right: 30px;
+}
+ .list{
+    display: flex;
+    width: 80vh;
+    list-style-type: none;
+    justify-content: space-between;
+    margin-left: 30%;
+  }
+
+#Apps{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-family: 'Poppins';
+} 
+li.list-item{
+    padding: 80 30px;
+    color: white;
+    font-family: 'Poppins';
+}
+
+.button-small{
+    position: relative;
+    left: 60vh;
+    padding: 5px 15px;
+    border-radius: 5px;
+    top: 10px;
+    background-color: #8D3DAF;
+    color: white;
+    font-family: 'Poppins';
+  }
+
+  .container>section::after{
+    content: '';
+    background-image: url('./assets/bg.png');
+    position:absolute;
+    top:0px;
+    left:0px;
+    right: 0px;
+    bottom: 0px;
+    background-size:cover;
+    background-position: top center;
+    z-index:-1;
+    background-repeat: no-repeat;
+    /* background-blend-mode: normal; */
+  }
+
+  .hero{
+    text-align: center;
+  }
+  .hero-heading{
+    font-family: 'Montserrat';
+    color: white;
+    font-weight: 700;
+    font-size: xxx-large;
+    width: 600px;
+    position: relative;
+    left: 60vh;
+    top: 10vh;
+  }
+.hero-description{
+    font-family: 'Montserrat';
+    color: white;
+    position: relative;
+    top: 5vh;
+}
+
+.button-large{
+    font-family: 'Poppins';
+    position: relative;
+    top: 10vh;
+    padding: 12px 25px;
+    background-color: #c41ec7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: larger;
+}
